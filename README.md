@@ -28,3 +28,20 @@
 #### Este endpoint permite retornar el objeto de id(:pid) que se quiera obtener. Esto se logro mediante find() para encontrar el objeto con :pid , para luego localizar el index con el indexOF() para poder retornar el producto con su indice.
 
 #### Con este ejercicio ya implementar el resto de las opciones que tenia ProductManager es simple solo un poco de implementacion seria necesaria si es posible la agregaria despues.
+
+## Producto ejemplo para subir
+```JSON
+  {
+    "title": "Tomate",
+    "description": "El tomate es rico en minerales esenciales, que nos ayudan a sentirnos fuertes y con energía.",
+    "price": 587,
+    "thumbnail": [
+      "https://firebasestorage.googleapis.com/v0/b/tienda-mastergym.appspot.com/o/Prouctmanager%2Ftomate.jpeg?alt=media&token=80320653-1e2b-41df-b737-02cb2996ac9e"
+    ],
+    "stock": 98,
+    "code": "578921",
+    "status": true,
+    "category": "Verdura",
+    "id": 10
+  }
+```

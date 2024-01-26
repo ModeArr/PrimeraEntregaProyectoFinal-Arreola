@@ -3,6 +3,7 @@ const productsRoutes = require("./routes/products.routes")
 const cartsRoutes = require("./routes/carts.routes")
 
 PORT = 8080
+API_PREFIX = "api"
 
 const app = express()
 
