@@ -59,9 +59,7 @@ class CartManager {
         const index = allCarts.indexOf(cart);
         const product = allCarts[index].products.find(e => e.id === idProduct)
         const quantity = 1
-
-
-
+        
         if (!product){
             const newProduct = {
                 id: idProduct,
