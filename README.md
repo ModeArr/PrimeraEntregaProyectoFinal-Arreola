@@ -31,7 +31,7 @@
     "category": "Verdura",
     "id": 10
   }
-
+```
 ## Cosas a realizadas
 
 ## Products
@@ -86,7 +86,3 @@
 
 ### router.post("/:cid/product/:pid")
 #### Este endpoint permite agregar un producto con su id(:pid) a un Cart especifico con su id(:cid) esto usando la funcion del CartManager addProductToCart(idCart, idProduct)
-
-
-
-```
